@@ -6,6 +6,9 @@
   "bin": {
     "batch-importes": "dist/index.js"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "dist",
     "readme.md",
