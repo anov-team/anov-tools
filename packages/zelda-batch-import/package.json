@@ -1,0 +1,39 @@
+{
+  "name": "zelda-batch-import",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "bin": {
+    "zelda-batch-import": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "readme.md",
+    "package.json"
+  ],
+  "scripts": {
+    "start": "father build && node dist/index.js",
+    "build": "father build",
+    "build:deps": "father prebundle",
+    "test": "jest --maxWorkers 2",
+    "lint-publish": "lint-and-publish"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.22.10",
+    "@babel/preset-env": "^7.22.10",
+    "@babel/preset-typescript": "^7.22.5",
+    "cleye": "^1.3.2",
+    "consola": "^3.1.0",
+    "fs-extra": "^11.1.1",
+    "glob": "^10.3.1",
+    "yaml": "^2.3.1"
+  },
+  "devDependencies": {
+    "@types/babel__core": "^7.20.1",
+    "@types/babel__preset-env": "^7.9.2",
+    "@types/fs-extra": "^11.0.1"
+  }
+}
