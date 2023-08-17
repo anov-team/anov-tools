@@ -43,4 +43,8 @@ other lint && pnpm lint-en -p="xxx"
 - npx lint-and-publish --init
 - 将用`lint-publish`替换掉`npm publish`
 
+### zelda-batch-import 「wip」
+
+文件夹批量导入工具
+
 MIT
