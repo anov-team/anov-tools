@@ -7,7 +7,7 @@
     "prepare": "husky install",
     "changeset": "npx changeset",
     "release": "npx changeset version",
-    "publish-all": "pnpm -r lint-publish",
+    "publish-all": "npx changeset publish",
     "test": "pnpm -r test"
   },
   "keywords": [],
